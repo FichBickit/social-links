@@ -1,0 +1,38 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+html {
+    background-color: var(--grey-900);
+    color: var(--white);
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--grey-800);
+    padding: 40px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.img {
+    border-radius: 50%;;
+}
+
+.location {
+    font-size: 14px;
+    color: var(--green);
+}
+
+.desc {
+    font-size: 14px;
+}
