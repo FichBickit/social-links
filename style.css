@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: theFont;
-    src: url();
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
 }
 
 *,
@@ -22,6 +22,7 @@
 html {
     background-color: var(--grey-900);
     color: var(--white);
+    font-family: sans-serif, theFont;
 }
 
 body {
